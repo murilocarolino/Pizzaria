@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.entrar {
+    border: none;
+}
+
+input {
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    outline: none;
+}
+
+hr {
+    border: 1px solid aliceblue;
+}
+
+body {
+    overflow: hidden;
+}
+
+.fundo {
+    position: absolute;
+    z-index: -1;
+}
+
+.gradient {
+    width: 360px;
+    height: 800px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(252, 121, 0, 0.85) 47.4%, rgba(252, 121, 0, 0.00) 100%);
+    position: absolute;
+    z-index: -1;
+}
+
+.logo {
+    width: 250px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.title {
+    width: 230px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 70px;
+    padding-left: 15px;
+}
+
+.subtitle {
+    width: 335px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 70px;
+    padding-left: 15px;
+}
+
+.botao {
+    width: 275px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    height: 60px;
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+.botao a {
+    padding-left: 105px;
+}
+
