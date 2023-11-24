@@ -68,7 +68,10 @@ body {
 }
 
 .botao a {
-    padding-left: 105px;
+    padding-left: 93px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #F27706;
 }
 
 footer {

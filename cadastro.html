@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="cadastro.css">
-    <title>Document</title>
+    <script src="main.js" defer></script>
+    <title>Acesse sua Conta</title>
 </head>
 <body>
     
@@ -26,13 +27,18 @@
         <div class="subtitle">O que você está esperando para saborear as mais deliciosas pizzas e sobremesas da região?</div>
 
         <div class="entrar">
-            <input type="text" class="Pesquisar" placeholder="Pesquisar">
+            <img src="./Email.png" class="email">
+            <input type="text" class="pesquisar" placeholder="Digite seu e-mail">
+            <hr>
+            <img src="./Lock.png" class="lock">
+            <input type="text" class="pesquisar" placeholder="Digite sua senha">
             <hr>
         </div>
 
         <div class="botao"> 
-            <a href="cadastro.html">Continuar</a>
+            <button onclick="enviarEmail()"> ENTRAR </button>
         </div>
+
     </main>
 
     <footer>

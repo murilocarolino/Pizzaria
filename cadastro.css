@@ -42,6 +42,28 @@ body {
     z-index: -1;
 }
 
+hr {
+    width: 90%;
+    margin-left: 18px;
+}
+
+.pesquisar {
+    margin-left: 10px;
+    padding-top: 40px;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+.email {
+    margin-left: 20px;
+}
+
+.lock {
+    margin-left: 20px;
+}
+
 .logo {
     width: 250px;
     padding-left: 10px;
@@ -84,7 +106,16 @@ body {
     margin-top: 20px;
 }
 
-.botao a {
-    padding-left: 105px;
-}
+button {
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: transparent;
+    color: #F27706;
+    border: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+} 
+
 
