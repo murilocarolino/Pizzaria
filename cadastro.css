@@ -89,8 +89,8 @@ hr {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
+    font-style: inherit;
+    font-weight: 10;
     line-height: normal;
     padding-top: 70px;
     padding-left: 15px;
@@ -106,7 +106,7 @@ hr {
     margin-top: 20px;
 }
 
-button {
+a {
     padding-left: 98px;
     padding-right: 98px;
     padding-top: 16px;
@@ -118,4 +118,32 @@ button {
     font-size: 20px;
 } 
 
+.esqueci {
+    padding-left: 200px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 50;
+}
 
+.subtitulo {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 70px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.criar {
+    padding-left: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
