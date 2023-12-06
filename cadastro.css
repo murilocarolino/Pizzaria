@@ -96,7 +96,7 @@ hr {
     padding-left: 15px;
 }
 
-.botao {
+.inputLogar {
     width: 275px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -104,6 +104,18 @@ hr {
     height: 60px;
     margin-left: 42px;
     margin-top: 20px;
+}
+
+.enviar {
+    padding-left: 110px;
+    padding-right: 98px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: transparent;
+    color: #F27706;
+    border: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 a {
