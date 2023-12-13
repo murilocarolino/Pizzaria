@@ -65,6 +65,8 @@ body {
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
+    display: flex;
+    align-items: center;
 }
 
 .botao a {
